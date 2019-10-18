@@ -1,0 +1,100 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Image gallery</title>
+	<!-- <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous"> -->
+	<!-- <link rel="stylesheet" type="text/css" href="bootstrap.css"> -->
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css"> 
+	<!-- we are using version 3.4.1 so use links of that only  -->
+	<link rel="stylesheet" type="text/css" href="gallery.css"> 
+
+</head>
+<body>
+	<nav class="navbar navbar-inverse" >
+		<div class="container" > 
+		<div class="navbar-header" >   
+		<a href="#" class="navbar-brand"><span class="glyphicon glyphicon-picture" aria-hidden="true"></span> IMG HUB</a>
+		</div>
+			<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+				<ul class="nav navbar-nav"> 
+					<li><a href="#">About</a></li>
+					<li><a href="#">Contact</a></li>
+				</ul>
+				<ul class="nav navbar-nav navbar-right">
+					<li><a href="#">Signup</a></li>
+					<li><a href="#">Login</a></li>
+				</ul>
+			</div>
+		</div>
+	</nav>
+	<div class="container">
+		<div class="jumbotron">
+			<h1><span class="glyphicon glyphicon-camera" aria-hidden="true"></span>   The Image Gallery</h1>  <!-- a glyphicon is included using span  -->
+			<p>A collection of random images that I didn't take</p>
+			
+		</div>
+
+		<div class="row"> <!-- WE HAVE PUT ALL IMAGES IN ONE ROW BECAUSE IT AUTOMATICALLY WRAPS 3 PER ROW  -->
+			<div class="col-sm-6 col-md-4">
+				<div class="thumbnail">  <!-- THUMBNAIL IS USED TO FIT IN THE COLUMN -->
+					<img  src="https://source.unsplash.com/6gZFn6XW2Vc">
+				</div>
+
+			</div>
+			<div class="col-sm-6 col-md-4"> <!-- col md automatically becomes 6 -->
+				<div class="thumbnail">
+					<img src="https://source.unsplash.com/K22SK31G-QM">
+				</div>
+
+            </div>
+            
+			<div class="col-sm-6 col-md-4">
+				<div class="thumbnail ">
+					<img src="https://source.unsplash.com/SNLf0OCe3-Q">
+				</div>
+
+			</div>
+			<div class="col-sm-6 col-md-4">
+				<div class="thumbnail">
+					<img src="https://source.unsplash.com/0m7Ks0Z00Ro">
+				</div>
+
+			</div>
+			<div class="col-sm-6 col-md-4 ">
+				<div class="thumbnail ">
+					<img src="https://source.unsplash.com/tGFxSUHySxk">
+				</div>
+
+			</div>
+			<div class="col-sm-6 col-md-4">
+				<div class="thumbnail">
+					<img src="https://source.unsplash.com/lqxMW8r-qJY">
+				</div>
+
+            </div>
+		</div>
+
+	</div>
+
+
+		
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- jQuery library -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.0/jquery.min.js"></script>
+
+<!-- Latest compiled JavaScript -->
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+</body>
+</html>
